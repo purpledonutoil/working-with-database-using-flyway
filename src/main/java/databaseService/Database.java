@@ -1,6 +1,8 @@
 package databaseService;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 
 public class Database {
     private static Database INSTANCE;
